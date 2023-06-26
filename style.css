@@ -1,0 +1,85 @@
+* {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+html {
+  background-color: #ecb562a2;
+  height: 100%;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 10px;
+}
+
+#submit-btn {
+  background-color: #3608dd;
+  color: #ffffff;
+  border-color: #ffffff;
+  transition: all ease-in-out .3s;
+}
+
+#submit-btn:hover {
+  background-color: #08bdddbd;/* 3608ddbd */
+  color: #000000;
+  border-color: #000000;
+  transition: all ease-in-out .3s;
+}
+
+#tasks-list {
+  width: fit-content;
+  margin: auto;
+}
+
+li {
+  text-align: initial;
+  justify-content: center;
+}
+
+#todo-container {
+  display: flex;
+  column-gap: 10px;
+  padding-top: 15px;
+}
+
+.todo-task {
+  color: #000000;
+}
+
+.task-completed {
+  text-decoration: line-through;
+}
+
+.delete-btn {
+  border: none;
+  text-decoration: none;
+  background-color: #c72323;
+  color: #ffffff;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all ease-in-out .3s;
+}
+
+.delete-btn:hover {
+  background-color: #ee0a0a;
+  font-weight: bold;
+  transition: all ease-in-out .3s;
+}
